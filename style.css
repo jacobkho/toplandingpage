@@ -42,6 +42,7 @@ body {
     font-family: roboto;
 }
 
+/* hero section */
 .hero {
     height: 50vh;
     background-color: #1f2937;
@@ -116,4 +117,47 @@ button {
     border: 0;
     box-shadow: none;
     margin-top: 10px;
+}
+
+/*info section*/
+.info {
+    margin: 0;
+    height: 65vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.info-container {
+    width: 1075px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.info-img {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 15px;
+}
+
+figure {
+    margin: 50px 0;
+}
+
+figcaption {
+    width: 150px;
+    height: auto;
+    color: #e5e7eb;
+    text-align: center;
 }
