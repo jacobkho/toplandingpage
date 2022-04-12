@@ -187,3 +187,38 @@ figcaption {
     text-align: right;
     margin-right: 25px;
 }
+
+/*Call to action*/
+.cta-wrapper {
+    margin: 0;
+    height: 40vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta {
+    background-color: #3882f6;
+    width: 800px;
+    padding: 40px 120px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cta-header {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.cta-text {
+    color: #e5e7eb;
+}
+
+.cta-button {
+    border: 2px solid white;
+    padding: 5px 40px;
+    border-radius: 5px;
+}
